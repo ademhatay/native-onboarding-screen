@@ -1,15 +1,13 @@
 import React from 'react'
-import Screen from './Screen'
 
-import { Text, View } from 'react-native'
+import Onboarding1 from './Onboarding/Onboarding1';
+import Onboarding2 from './Onboarding/Onboarding2';
+import Onboarding3 from './Onboarding/Onboarding3';
+import Onboarding4 from './Onboarding/Onboarding4';
 
 const OnboardingScreen = () => {
 	return <>
-		<Screen>
-			<View className="flex-1 bg-red-500">
-				<Text>Onboarding Screen</Text>
-			</View>
-		</Screen>
+		<Onboarding4 />
 	</>
 }
 
